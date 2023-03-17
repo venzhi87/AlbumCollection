@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		E3CA201729A4E59A00BC2A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA201629A4E59A00BC2A98 /* AppDelegate.swift */; };
 		E3CA201929A4E59A00BC2A98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA201829A4E59A00BC2A98 /* SceneDelegate.swift */; };
-		E3CA201B29A4E59A00BC2A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA201A29A4E59A00BC2A98 /* ViewController.swift */; };
 		E3CA201E29A4E59A00BC2A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CA201C29A4E59A00BC2A98 /* Main.storyboard */; };
 		E3CA202029A4E59C00BC2A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CA201F29A4E59C00BC2A98 /* Assets.xcassets */; };
 		E3CA202329A4E59C00BC2A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CA202129A4E59C00BC2A98 /* LaunchScreen.storyboard */; };
+		E3CA202D29A4FA1800BC2A98 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA202C29A4FA1800BC2A98 /* Track.swift */; };
+		E3CA203A29A534C900BC2A98 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA203929A534C900BC2A98 /* TrackListViewController.swift */; };
+		E3CA203C29A5420100BC2A98 /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA203B29A5420100BC2A98 /* TrackDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3CA201329A4E59A00BC2A98 /* My TrackList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My TrackList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CA201629A4E59A00BC2A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3CA201829A4E59A00BC2A98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3CA201A29A4E59A00BC2A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3CA201D29A4E59A00BC2A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3CA201F29A4E59C00BC2A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3CA202229A4E59C00BC2A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3CA202429A4E59C00BC2A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CA202C29A4FA1800BC2A98 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		E3CA203929A534C900BC2A98 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		E3CA203B29A5420100BC2A98 /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				E3CA201629A4E59A00BC2A98 /* AppDelegate.swift */,
 				E3CA201829A4E59A00BC2A98 /* SceneDelegate.swift */,
-				E3CA201A29A4E59A00BC2A98 /* ViewController.swift */,
+				E3CA202C29A4FA1800BC2A98 /* Track.swift */,
+				E3CA203929A534C900BC2A98 /* TrackListViewController.swift */,
+				E3CA203B29A5420100BC2A98 /* TrackDetailsViewController.swift */,
 				E3CA201C29A4E59A00BC2A98 /* Main.storyboard */,
-				E3CA201F29A4E59C00BC2A98 /* Assets.xcassets */,
 				E3CA202129A4E59C00BC2A98 /* LaunchScreen.storyboard */,
+				E3CA201F29A4E59C00BC2A98 /* Assets.xcassets */,
 				E3CA202429A4E59C00BC2A98 /* Info.plist */,
 			);
 			path = "My TrackList";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3CA201B29A4E59A00BC2A98 /* ViewController.swift in Sources */,
+				E3CA203A29A534C900BC2A98 /* TrackListViewController.swift in Sources */,
 				E3CA201729A4E59A00BC2A98 /* AppDelegate.swift in Sources */,
+				E3CA203C29A5420100BC2A98 /* TrackDetailsViewController.swift in Sources */,
 				E3CA201929A4E59A00BC2A98 /* SceneDelegate.swift in Sources */,
+				E3CA202D29A4FA1800BC2A98 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
