@@ -22,8 +22,12 @@ class TrackDetailsViewController: UIViewController {
         trackTitleLabel.text = track.title
         aboutTitleLabel.text = track.about
         aboutTitleLabel.textColor = .white
-        
-   
     }
+    
+    @IBAction func tracksAlbumVC(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(identifier: "TracksAlbum")
+        self.present(vc!, animated: true, completion: nil)
 
+    }
+    
 }

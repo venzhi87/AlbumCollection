@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3C3EDA229C5B3FD00F9F2C1 /* TracksAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C3EDA129C5B3FD00F9F2C1 /* TracksAlbum.swift */; };
 		E3CA201729A4E59A00BC2A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA201629A4E59A00BC2A98 /* AppDelegate.swift */; };
 		E3CA201929A4E59A00BC2A98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA201829A4E59A00BC2A98 /* SceneDelegate.swift */; };
 		E3CA201E29A4E59A00BC2A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CA201C29A4E59A00BC2A98 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3C3EDA129C5B3FD00F9F2C1 /* TracksAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksAlbum.swift; sourceTree = "<group>"; };
 		E3CA201329A4E59A00BC2A98 /* My TrackList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My TrackList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CA201629A4E59A00BC2A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3CA201829A4E59A00BC2A98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				E3CA202C29A4FA1800BC2A98 /* Track.swift */,
 				E3CA203929A534C900BC2A98 /* TrackListViewController.swift */,
 				E3CA203B29A5420100BC2A98 /* TrackDetailsViewController.swift */,
+				E3C3EDA129C5B3FD00F9F2C1 /* TracksAlbum.swift */,
 				E3CA201C29A4E59A00BC2A98 /* Main.storyboard */,
 				E3CA202129A4E59C00BC2A98 /* LaunchScreen.storyboard */,
 				E3CA201F29A4E59C00BC2A98 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				E3CA203C29A5420100BC2A98 /* TrackDetailsViewController.swift in Sources */,
 				E3CA201929A4E59A00BC2A98 /* SceneDelegate.swift in Sources */,
 				E3CA202D29A4FA1800BC2A98 /* Track.swift in Sources */,
+				E3C3EDA229C5B3FD00F9F2C1 /* TracksAlbum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
